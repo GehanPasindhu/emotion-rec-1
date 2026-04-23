@@ -36,6 +36,24 @@ pip install -r requirements.txt
 
 You can also run the notebook install cell directly.
 
+## Updated Code File
+
+The updated runnable code file is:
+
+- [train_emotion_models.py](/Users/gehanpasindhu/Documents/projects/datascience/diyasha/emotion-rec-1/train_emotion_models.py)
+
+Run it from `emotion-rec-1/` with:
+
+```bash
+python3 train_emotion_models.py
+```
+
+Example with custom settings:
+
+```bash
+python3 train_emotion_models.py --models mobilenet efficientnet --epochs-head 8 --epochs-finetune 12
+```
+
 ## Notes
 
 - `emotion-rec-1/emotion_recognition.ipynb` is a duplicated notebook copy.
